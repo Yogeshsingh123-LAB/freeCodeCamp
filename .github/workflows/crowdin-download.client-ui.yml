@@ -33,8 +33,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -71,8 +69,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -102,8 +98,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -133,8 +127,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -164,8 +156,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -195,8 +185,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -226,8 +214,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -257,8 +243,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
@@ -288,8 +272,6 @@ jobs:
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
         with:
-          token: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-
           # uploads
           upload_sources: false
           upload_translations: false
