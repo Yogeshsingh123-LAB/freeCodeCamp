@@ -17,6 +17,7 @@ permissions:
 jobs:
   i18n-upload-curriculum-files:
     name: Learn
+    if: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN != '' && secrets.CROWDIN_PROJECT_ID_CURRICULUM != '' && secrets.CROWDIN_BASE_URL_FCC != '' }}
     runs-on: ubuntu-24.04
 
     steps:
